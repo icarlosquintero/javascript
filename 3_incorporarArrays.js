@@ -45,7 +45,7 @@ class Jugador {
         this.nombre = nombre
         this.acceso = "correcto"
         this.saludar = function(){
-        alert("Acceso " + this.acceso + "!" +"¡Bienvenido al juego de memoria " + this.nombre + "!" + " Si das con la respuesta correcta saldrás con vida")
+        alert("¡Acceso " + this.acceso + "!" +" Bienvenido al juego de memoria " + this.nombre + " si das con la respuesta correcta saldrás con vida")
     }
     }
 }
