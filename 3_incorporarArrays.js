@@ -33,6 +33,7 @@ function alertaJuego(operacion) {
             alert("¡Te ha tocado Valor 1 + Valor 2 / Valor 3!")
                 break;  
         default:
+            alert("Has introducido un valor incorrecto")
             break;
 }
 }
@@ -44,7 +45,7 @@ class Jugador {
         this.nombre = nombre
         this.acceso = "correcto"
         this.saludar = function(){
-        alert("¡Bienvenido al juego de memoria " + this.nombre + "!" +" ¡Tu acceso es " + this.acceso + "!" + " Si das con la respuesta correcta saldrás con vida")
+        alert("Acceso " + this.acceso + "!" +"¡Bienvenido al juego de memoria " + this.nombre + "!" + " Si das con la respuesta correcta saldrás con vida")
     }
     }
 }
