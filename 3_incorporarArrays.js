@@ -44,7 +44,7 @@ class Jugador {
         this.nombre = nombre
         this.acceso = "correcto"
         this.saludar = function(){
-        alert("¡Bienvenido de memoria " + this.nombre + "!" +" ¡Tu acceso es " + this.acceso + "!" + " Si das con la respuesta correcta saldrás con vida")
+        alert("¡Bienvenido al juego de memoria " + this.nombre + "!" +" ¡Tu acceso es " + this.acceso + "!" + " Si das con la respuesta correcta saldrás con vida")
     }
     }
 }
@@ -64,12 +64,9 @@ alert("¡Tienes " + vidas + " vidas!")
 
 //Almacenaje de valores
 const valoresJuego =[]
-let valor1 = parseInt(prompt("Ingresa el primer número"))
-valoresJuego.push(valor1)
-let valor2 = parseInt(prompt("Ingresa el segundo número"))
-valoresJuego.push(valor2)
-let valor3 = parseInt(prompt("Ingresa el tercer número"))
-valoresJuego.push(valor3)
+let valor1 = valoresJuego.push(parseInt(prompt("Ingresa el primer número")))
+let valor2 = valoresJuego.push(parseInt(prompt("Ingresa el segundo número")))
+let valor3 = valoresJuego.push(parseInt(prompt("Ingresa el tercer número")))
 let operacion = prompt("Ingresa una opción: 1, 2, 3, 4")
 alertaJuego(operacion)
 let pregunta1 = parseInt(prompt("¡Ingresa el resultado!"))
