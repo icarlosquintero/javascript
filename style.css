@@ -1,0 +1,94 @@
+.navbar .container-fluid{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-brand{
+    font-size: 2.25rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.container{
+    margin-top: 2rem;
+}
+
+.form-label{
+    margin-top: 0.15rem;
+    margin-bottom: 0.15rem;
+}
+
+li{
+    list-style:none
+}
+
+h2{
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+#footer{
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.form-control{
+    background-color: white;
+}
+
+#passwordHelpBlock{
+    font-size: 0.75rem;
+    color: #ABB2B9
+    
+}
+
+.centrado{
+    margin-block: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+    row-gap: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+}
+
+.img-cart{
+    width: 50%;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;    
+}
+
+.card-title {
+    display: flex;
+    justify-content: center;
+}
+
+.card-text {
+    display: flex;
+    justify-content: center;
+}
+
+.card-img-top {
+    border-top-left-radius: var(--bs-card-inner-border-radius);
+    border-top-right-radius: var(--bs-card-inner-border-radius);
+    height: 238.04px;
+    width: 261.77px;
+}
+
+
+
