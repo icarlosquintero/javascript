@@ -320,19 +320,13 @@ function agregarCurso(e) {
             const modificarContenedor33 = document.querySelector("#card4");
             modificarContenedor33.style.borderColor = "#ced4da";
             modificarContenedor33.style.boxShadow = "";
-            //informamos tiempo de respuesta
-            swal({
-              icon: "info",
-              text: "¡Tienes 5 segundos para ingresar tu respuesta!",
-            });
+            //informamos selección correcta
             setTimeout(() => {
               swal({
-                icon: "error",
-                title: "¡Has sido eliminado, no ingresaste un valor!",
-              }).then(function () {
-                location.reload();
+                icon: "info",
+                text: "¡Has seleccionado tu prueba correctamente!",
               });
-            }, 5000);
+            }, 300);
             break;
 
           case "card4":
